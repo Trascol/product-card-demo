@@ -1,0 +1,129 @@
+html, body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Product Card */
+
+.product-card {
+    display: flex;
+    background-color: white;
+    height: 500px;
+    margin-top: 120px;
+    width: 800px;
+}
+
+/* Right container */
+
+.right-info-col {
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.right-info-col h3 {
+    color:black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.right-info-col h5 {
+    color:lightgrey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-info-col p {
+    color:black;
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+/* Avaliable Colors Section */
+
+.available-colors {
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+}
+
+.available-colors span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.available-colors .black-color-container, .red-color-container, .white-color-container {
+    width: 20px;
+    height: 20px;
+    Display: inline-block;
+    Margin-right: 15px;
+    Margin-left: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.available-colors .black-color-container{
+    background-color: black;
+    margin-left: 25px;
+}
+
+.available-colors .red-color-container{
+    background-color: red;
+}
+
+.available-colors .white-color-container{
+    background-color: beige;
+}
+
+.available-colors .black-color-container:hover{
+    background-color: grey;
+}
+
+.available-colors .red-color-container:hover{
+    background-color: darkred;
+}
+
+.available-colors .white-color-container:hover{
+    background-color: lightgrey;
+}
+
+/* Price Section */
+
+.price {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price h4{
+    font-size: 32px;
+    margin: 0;
+}
+
+.price .buy-btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.price .buy-btn:hover{
+    background-color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+/* Image */
+
+.left-img-col img {
+    width: 400px;
+    object-fit: fill;
+    height: 500px;
+  }
